@@ -3,7 +3,15 @@ This repository aims to provide support for macOS on Hyper-V
 ## WARNING: Intel "i" series CPU's ONLY are currently supported. Xeon, Pentioum, Celeron and AMD CPU's are not yet supported by the Hyper-V drivers developed by Acidanthera.
 
 
-![Ventura-Hyper-V](https://github.com/balopez83/macOS_On_Hyper-V/assets/53441362/5411a4cf-0172-4b1b-9806-95266024d6a7)
+![Ventura-Hyper-V](https://github.com/balopez83/macOS_On_Hyper-V/assets/53441362/5411a4cf-0172-4b1b-9806-95266024d6a7) 
+
+## Instruction Guides
+
+### [Chapter 1) Installation Guide](https://github.com/balopez83/macOS_On_Hyper-V/blob/main/1-QuickStart.md)
+### [Chapter 2) Quirks & Fixes](https://github.com/balopez83/macOS_On_Hyper-V/blob/main/Quirks%26Fixes.md)
+
+
+
 
 
 ## Current State Of Support:
@@ -30,7 +38,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
 - [x] Battery Information Passthrough
-- [ ] AMD Not Yet Supported
+- [ ] AMD Support
 
 ## *** NOTICE ***
 ### This is currently at Beta stage but is usable. 
@@ -47,18 +55,6 @@ This repository aims to provide support for macOS on Hyper-V
 |WiFi| Default Switch | Default Switch |
 |Batt| N/A | N/A |
 |USB| N/A | N/A |
-
-
-
-
-## Instruction Guides
-
-### [Chapter 1) Installation Guide](https://github.com/balopez83/macOS_On_Hyper-V/blob/main/1-QuickStart.md)
-### [Chapter 2) Quirks & Fixes](https://github.com/balopez83/macOS_On_Hyper-V/blob/main/Quirks%26Fixes.md)
-
-
-
-
 
 ## What works 
 
@@ -93,4 +89,4 @@ This repository aims to provide support for macOS on Hyper-V
 
 ### Credits
 
-Thanks to [@acidanthera](https://github.com/acidanthera) for creating the software, kexts, and patches, required to even begin to make this possible. I take no credit for any of this development and only seek to make an easy to use method for getting macOS running on Hyper-V. You can find original sources at the following links: [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) & [Hyper-V Support](https://github.com/acidanthera/MacHyperVSupport).
+Thanks to [@acidanthera](https://github.com/acidanthera) for creating the software, kexts, and patches, required to even begin to make this possible. I take no credit for any of this development and only seek to make an easy to use method for getting macOS running on Hyper-V. You can find sources at the following links: [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) & [Hyper-V Support](https://github.com/acidanthera/MacHyperVSupport).
